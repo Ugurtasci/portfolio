@@ -1,0 +1,127 @@
+@media screen  and (max-width:770px) {
+    .navbar{
+        width: 90%;
+
+    }
+
+    .logo h2 a{
+        font-size: 20px;
+    }
+
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+/*! header */
+    
+.nav-links{
+    display: none;
+   
+   
+}
+
+
+/*! ana sayfa  */
+
+
+    .inner_anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .child_anasayfa{
+        flex-basis: 100%;
+    }
+
+    .child_anasayfa:last-child{
+        margin-bottom: 20px;
+    }
+
+    .child_anasayfa h1{
+       font-size: 30px;
+       line-height: 35px;
+    }
+
+    .child_anasayfa p{
+        font-size: 20px;
+    }
+
+    /*! yazılımlar */
+
+   
+
+    .innersoftware_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*! sertfikalarım */
+
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*! başarılarım */
+
+    .child_achivement{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_achivement2{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .single_detail{
+        flex-basis: 100%;
+    }
+
+    /*! hakkımda */
+
+    .child_testi{
+        flex-basis: 100%;
+        margin-bottom: 60px;
+    }
+
+    .child_testi:last-child{
+        margin-bottom: 0;
+    }
+
+    /*! iletişim */
+
+    .child_contact{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+
+@media screen  and (max-width:1490px) {
+
+    .child_achivement{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .child_achivement2{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    } 
+
+}
